@@ -1,0 +1,2574 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0F5FB;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #F0F5FB;
+}
+
+li{
+    list-style: none;
+}
+
+.header_top{
+    background-color: #18154B;
+    padding: 17px;
+}
+
+
+.btn_banner a:hover{
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.4);
+}
+
+.container_top{
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email, .phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left_email_phone{
+    display: flex;
+    gap: 44px;
+}
+
+.right_social_media{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.container_bootom{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_bootom{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    padding: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all .8s;
+}
+
+.logo a{
+    background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.container_bootom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 58px;
+    align-items: center;
+}
+
+.menu-item ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.menu-item li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #303239;
+}
+
+.menu-item li a:hover{
+    color: rgba(48, 50, 57, 0.7);
+    transition: .3s ease-in-out;
+}
+
+
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn_menu{
+    display: flex;
+    align-items: center;
+}
+
+.btn_menu a{
+    background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+    border-radius: 50px;
+    padding: 11px 27px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-size: 200%;
+    transition: .5s;
+}
+
+
+.banner_hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    border-radius: 10px;
+    width: 780px;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-image: url('../img/image.png'), linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%);
+}
+
+
+.banner_container{
+    display: flex;
+    align-items: center;
+    max-width: 675px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.title_banner{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.prg{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.btn_banner{
+    margin-top: 30px;
+}
+
+
+.btn_banner a{
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #18154B;
+    transition: .3s ease-in;
+}
+
+
+.banner_right_now{
+    background: linear-gradient(300deg, #0D748B -18.13%, #1A0B73 75.49%);
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    border-radius: 10px;
+    width: 380px;
+    height: 440px;
+}
+
+.proposal{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner_right_container{
+    max-width: 303px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.discount{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left_discount h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.right_discount h1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.btn_catalog{
+    margin-top: 176px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.btn_catalog a{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 75px;
+
+}
+
+.image_btn_container{
+    display: flex;
+}
+
+
+.catolog_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.title_catalog{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #18154B;
+}
+
+.catalog_cards{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content_card{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    background-repeat: no-repeat;
+    background-image: url(../img/Ellipse.png);
+    background-color: #FFFFFF;
+    background-size: contain;
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.name_product{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 130%;
+    color: #303239;
+    width: 180px;
+}
+
+.btn_card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.btn_card a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #18154B;
+}
+
+
+.advantages_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('../img/Vector.png'), radial-gradient(98.19% 130.91% at -8.58% -1.44%, #42E8E0 0%, #40DDDA 1.57%, #3AAEC0 9.21%, #3484A9 17.3%, #2F6195 25.73%, #2B4486 34.58%, #282E79 44%, #180564 82.26%);;
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    border-radius: 10px;
+}
+
+.advantages_content{
+    padding: 50px;
+    display: flex;
+    gap: 107px;
+}
+
+.title_advantages{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 341px;
+}
+
+.card_ad{
+    width: 147px;
+}
+
+.icon_cont{
+    background: #25307B;
+    box-shadow: 0px 4px 40px rgba(0, 6, 84, 0.9);
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    background-image: url(../img/Frame.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.CARD_ADV_CARD{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    width: 175px;
+}
+
+.right_icon_advantages{
+    width: 600px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hit_product_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+.hit{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #18154B;
+}
+
+.about_company{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.about_company_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_cont{
+    width: 460px;
+    height: 250px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    border-radius: 10px;
+    background-image: url('../img/about\ \(1\).png'), radial-gradient(98.19% 130.91% at -8.58% -1.44%, #282E79 44%, #180564 82.26%);
+}
+
+.prg_about{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #303239;
+    width: 645px;
+    margin-top: 40px;
+}
+
+.icon_container{
+    margin-top: 80px;
+}
+
+.icon_about_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.icon_card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background-image: url(../img/Group\ 13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prg_abt_card{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #303239;
+    width: 130px;
+    margin-top: 15px;
+}
+
+.sotrudnics{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background-image: url(../img/sotrudnics.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.avia{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background-image: url(../img/avia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.predzakaz{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background-image: url(../img/predzakaz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dog_or{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background-image: url(../img/Group\ 16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.video{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    background-image: url(../img/video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.form_containeer{
+    background-size:cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: url('../img/bg\ image.png'), linear-gradient(89.24deg, rgba(13, 116, 139, 0.6) -14.97%, rgba(26, 11, 115, 0.6) 81.3%);
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.forms_content{
+    padding: 60px;
+}
+
+
+.forms_title{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 600px;
+}
+
+
+.forms_prg{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input{
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(243, 243, 243, 0.7);
+    border-radius: 50px;
+    padding: 16px;
+    width: 240px;
+    border: 0;
+    outline: none;
+    color: white;
+}
+
+input::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #F3F3F3;
+}
+
+input:focus{
+    color: white;
+}
+
+.card_hit{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    border-radius: 10px;
+    width: 220px;
+    height: auto;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.stoc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image_product img{
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+
+.status_stoc{
+    background: #F0F5FB;
+    border-radius: 4px;
+    padding: 3px 12px;
+    width: fit-content;
+}
+
+.name_product_hit h1{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303239;
+    margin-top: 10px;
+}
+
+.availability{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.availability_icon{
+    width: 7px;
+    height: 7px;
+    background: #38B0C1;
+    border-radius: 90px;
+
+}
+
+.availability_text{
+    font-weight: 600;
+    font-size: 13px;
+    color: #9B9B9B;
+}
+
+.status_stoc h1{
+    background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.price_old{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 10px;
+    color: #9B9B9B;
+    text-decoration: line-through;
+}
+
+
+.price_new{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #303239;
+    margin-top: 8px;
+}
+
+.btn_card_hit a{
+    background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+    border-radius: 50px;
+    padding: 13px 30px;
+    width: fit-content;
+    background-size: 200%;
+    transition: .5s;
+}
+
+
+.hit_cards_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn_card_hit{
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+button{
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 80px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #18154B;
+    border: none;
+    transition: .3s ease-in;
+}
+
+button:hover{
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.4);
+}
+
+.politic{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #F3F3F3;
+    margin-top: 20px;
+}
+
+.btn_footer_phone:hover{
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.4);
+}
+
+.politic a{
+    text-decoration-line: underline;
+}
+
+.contacts_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.contacts_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_contacts{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #18154B;
+}
+
+.right_contacts iframe{
+    border-radius: 10px;
+    height: 365px;
+}
+
+.cards_cont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cards_conts{
+    margin-top: 40px;
+}
+
+.cards_cont p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #303239;
+}
+
+.grafics{
+    width: 230px;
+}
+
+.social_contacts{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.footer{
+    width: 100%;
+    background: #18154B;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.footer_content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_footer{
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cpr{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #B8B8B8;
+    margin-top: 20px;
+}
+
+.title_menu_footer{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #B8B8B8;
+}
+
+.menu_footer{
+    display: flex;
+    gap: 170px;
+}
+
+.menu_foot li{
+    margin-top: 8px;
+}
+
+.menu_foot li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.menu_foot{
+    margin-top: 20px;
+}
+
+.btn_footer_phone{
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #18154B;
+    width: 200px;
+    transition: .3s ease-in;
+}
+
+
+.oferts_contet{
+    margin-top: 145px;
+}
+
+.end_footers{
+    text-align: end;
+    width: 227px;
+}
+
+.public{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #B8B8B8;
+}
+
+.politic_footer{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #B8B8B8;
+    padding-top: 8px;
+}
+
+.btn_menu a:hover{
+    background-position: right;
+}
+
+.btn_card_hit a:hover{
+    background-position: right;
+}
+
+
+@media(max-width:1200px){
+    .header_top {
+        background-color: #18154B;
+        padding: 25px;
+    
+    }
+
+    .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 25px;
+    }
+
+    .banner_hero, .catolog_container, .hit_product_container, .about_company, .contacts_container, .footer_content{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .banner {
+        width: 720px;
+        height: 440px;
+    }
+
+
+    .advantages_container {
+        width: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .card {
+        background-repeat: no-repeat;
+        background-image: url(../img/Ellipse.png);
+        background-color: #FFFFFF;
+        background-size: contain;
+        width: 480px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width:1147px){
+    .menu {
+        display: flex;
+        gap: 45px;
+        align-items: center;
+    }
+
+    .banner {
+       width: 100%;
+    }
+
+    .banner_container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .menu-item ul {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .prg_about{
+        width: 580px;
+    }
+}
+
+
+@media(max-width:1104px){
+    .menu {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .banner_hero {
+        gap: 25px;
+    }
+}
+
+
+@media(max-width:1024px){
+    .menu-item li a {
+        font-size: 14px;
+    }
+
+    .btn_menu a {
+        background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+        border-radius: 50px;
+        padding: 10px 22px;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        color: #FFFFFF;
+        background-size: 200%;
+        transition: .5s;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .icon a {
+        width: 35px;
+    }
+
+    .banner {
+        width: 570px;
+    }
+
+
+    .title_banner {
+        font-size: 28px;
+    }
+
+    .right_banner img{
+        width: 240px;
+    }
+
+    .prg {
+        font-size: 15px;
+    }
+
+    .btn_banner a {
+        background: #FFFFFF;
+        border-radius: 50px;
+        padding: 12px 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #18154B;
+    }
+
+    .card {
+        background-repeat: no-repeat;
+        background-image: url(../img/Ellipse.png);
+        background-color: #FFFFFF;
+        background-size: contain;
+        width: 418px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .title_catalog, .hit{
+        font-size: 28px;
+    }
+
+    .advantages_content {
+        padding: 40px;
+        display: flex;
+        gap: 107px;
+    }
+
+    .left_advantages img{
+        width: 300px;
+    }
+
+    .icon_cont {
+        background: #25307B;
+        box-shadow: 0px 4px 40px rgb(0 6 84 / 90%);
+        width: 50px;
+        height: 50px;
+        border-radius: 90px;
+        background-image: url(../img/Frame.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .CARD_ADV_CARD {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        width: 147px;
+    }
+
+    .status_stoc h1{
+        font-size: 12px;
+    }
+
+    .btn_card_hit a{
+        padding: 12px 38px;
+        font-size: 14px;
+    }
+
+    .price_new{
+        font-size: 14px;
+    }
+
+    .prg_about{
+        font-weight: 400;
+        font-size: 12.5px;
+        line-height: 145%;
+        color: #303239;
+        width: 437px;
+    }
+
+    .name_product {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 130%;
+        color: #303239;
+        width: 180px;
+    }
+
+    .btn_card a {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #18154B;
+    }
+
+    .btn_card img{
+        width: 30px;
+    }
+
+    .icon_card {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        width: 65px;
+        height: 65px;
+        border-radius: 90px;
+        background-image: url(../img/Group\ 13.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 40px;
+    }
+
+    .prg_abt_card{
+        font-size: 14px;
+        width: 116px;
+    }
+
+    .forms_content {
+        padding: 44px;
+    }
+
+    .forms_title {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 530px;
+    }
+
+    .forms_prg {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    input {
+        background: rgba(255, 255, 255, 0.3);
+        border: 1px solid rgba(243, 243, 243, 0.7);
+        border-radius: 50px;
+        padding: 14px 20px;
+        width: 200px;
+        border: 0;
+        outline: none;
+        color: white;
+    }
+
+    input::placeholder{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 135%;
+    }
+
+    button {
+        background: #FFFFFF;
+        border-radius: 50px;
+        padding: 10px 60px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        color: #18154B;
+        border: none;
+    }   
+
+    .title_contacts{
+        font-size: 28px;
+    }
+
+    .cards_cont p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 145%;
+        color: #303239;
+    }
+
+    .social_contacts svg{
+        width: 35px;
+    }
+
+    .right_contacts iframe{
+        width: 500px;
+    }
+
+    .logo_footer {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .cpr{
+        font-size: 13px;
+    }
+
+    .title_menu_footer {
+        font-size: 15px;
+    }
+
+    .menu_footer {
+       gap: 80px;
+    }
+
+    .menu_foot li a {
+        font-size: 13px;
+    }
+
+    .btn_footer_phone {
+        background: #FFFFFF;
+        border-radius: 50px;
+        padding: 11px 22px;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 20px;
+        color: #18154B;
+    }
+
+    .public, .politic_footer{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 965px){
+    .banner {
+       width: 500px;
+    }
+
+    .right_banner img {
+         width: 200px;
+    }
+
+    .right_banner img {
+        width: 215px;
+    }
+}
+
+
+@media(max-width:890px){
+    .banner {
+       width: 450px;
+       height: auto;
+    }
+
+    .banner_container {
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: end;
+        padding-top: 41px;
+    }
+
+    .right_banner img {
+        width: 200px;
+    }
+
+    .menu-item, .btn_menu, .header_top{
+        display: none;
+    }
+
+    .card {
+        width: 390px;
+    }
+
+    .banner_right_now {
+        background: linear-gradient(300deg, #0D748B -18.13%, #1A0B73 75.49%);
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 350px;
+        height: 440px;
+    }
+
+    .prg_about {
+        font-weight: 400;
+        font-size: 12.5px;
+        line-height: 145%;
+        color: #303239;
+        width: 400px;
+    }
+
+    .img_cont {
+        width: 420px;
+        height: 250px;
+    }
+
+    .advantages_content {
+        padding: 40px;
+        display: flex;
+        gap: 50px;
+    }
+
+    .title_advantages {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:840px){
+    .banner {
+        width: 420px;
+        height: auto;
+    }
+
+    .right_banner img {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .left_discount h1 {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 76px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .card {
+        width: 360px;
+    }
+
+    .content_card {
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .name_product {
+        width: 170px;
+    }
+
+    .right_icon_advantages {
+        width: 600px;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .icon_cont {
+        background: #25307B;
+        box-shadow: 0px 4px 40px rgb(0 6 84 / 90%);
+        width: 40px;
+        height: 40px;
+        border-radius: 90px;
+        background-image: url(../img/Frame.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 20px;
+    }
+
+    .CARD_ADV_CARD {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        width: 147px;
+    }
+
+    .prg_about {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 145%;
+        color: #303239;
+        width: 310px;
+    }
+
+    .icon_card {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        width: 60px;
+        height: 60px;
+        border-radius: 90px;
+        background-image: url(../img/Group\ 13.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 40px;
+    }
+
+    .prg_abt_card {
+        font-size: 12px;
+        width: 116px;
+    }
+
+    .forms_title {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 530px;
+    }
+
+    .right_contacts iframe {
+        width: 410px;
+    }
+}
+
+
+@media(max-width:780px){
+    .banner {
+        width: 360px;
+        height: auto;
+    }
+
+    .image_btn_container {
+        display: flex;
+        margin-top: 45px;
+    }
+
+    .banner_right_now {
+        background: linear-gradient(300deg, #0D748B -18.13%, #1A0B73 75.49%);
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 350px;
+        height: 500px;
+    }
+
+    .right_banner img {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        width: 340px;
+    }
+
+    .name_product {
+        width: 140px;
+        font-size: 15px;
+    }
+
+    .btn_card a {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        color: #18154B;
+    }
+
+    .btn_card img {
+        width: 25px;
+    }
+
+    .product_img{
+        width: 130px;
+    }
+
+    .title_advantages {
+        font-size: 25px;
+        width: 235px;
+    }
+
+    .left_advantages img {
+        width: 240px;
+        height: auto;
+    }
+
+    .img_cont {
+        width: 380px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    .icon_about_cards {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 56px;
+    }
+
+    .icon_about_card{
+        width: 140px;
+    }
+
+    .prg_about {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 145%;
+        color: #303239;
+        width: 283px;
+    }
+
+    .end_footer{
+        margin-top: -215px;
+    }
+
+    .menu_footer {
+        gap: 80px;
+        margin-top: 54px;
+    }
+
+    .footer_content{
+        display: block;
+        padding-top: 40px;
+    }
+
+    .btn_footer_phone{
+        position: static;
+    }
+}
+
+
+@media(max-width:740px){
+   .banner_right_now {
+        background: linear-gradient(300deg, #0D748B -18.13%, #1A0B73 75.49%);
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 330px;
+        height: 500px;
+    }
+
+    .banner {
+        width: 340px;
+        height: auto;
+    }
+     
+    .card {
+        width: 325px;
+    }
+    
+    .icon_about_cards {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 43px;
+    }
+
+    input {
+        background: rgba(255, 255, 255, 0.3);
+        border: 1px solid rgba(243, 243, 243, 0.7);
+        border-radius: 50px;
+        padding: 14px 20px;
+        width: 182px;
+        border: 0;
+        outline: none;
+        color: white;
+    }
+
+    button {
+        background: #FFFFFF;
+        border-radius: 50px;
+        padding: 10px 60px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        color: #18154B;
+        border: none;
+    }
+
+    .right_contacts iframe {
+        width: 390px;
+    }
+
+    .social_contacts svg {
+        width: 32px;
+    }
+}
+
+
+@media(max-width:768px){
+    .hit_cards_container {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 29px;
+    }
+
+    .icon_about_cards {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 52px;
+    }
+
+    button {
+        background: #FFFFFF;
+        border-radius: 50px;
+        padding: 10px 55px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        color: #18154B;
+        border: none;
+    }
+}
+
+@media(max-width:715px){
+    .banner {
+        width: 330px;
+        height: auto;
+    }
+
+    .banner_right_now {
+        background: linear-gradient(300deg, #0D748B -18.13%, #1A0B73 75.49%);
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 300px;
+        height: 500px;
+    }
+
+    .banner_container {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: end;
+        padding-top: 41px;
+    }
+
+    .image_btn_container {
+        display: flex;
+        margin-top: 45px;
+        flex-wrap: wrap;
+    }
+
+    .btn_catalog {
+        margin-top: 0;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .banner_right_container {
+        max-width: 303px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .btn_catalog {
+        margin-top: 0;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 140px;
+    }
+
+    .card {
+        width: 318px;
+    }
+
+    .card_ad {
+        width: 107px;
+    }
+
+    .CARD_ADV_CARD {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        width: 127px;
+    }
+
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 210px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .btn_card_hit a {
+        padding: 12px 33px;
+        font-size: 14px;
+    }
+
+    .hit_cards_container {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .img_cont {
+        width: 340px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    .icon_about_cards {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 34px;
+    }
+
+    .forms_content {
+        padding: 30px;
+    }
+
+    .right_contacts iframe {
+        width: 360px;
+    }
+
+    button {
+        background: #FFFFFF;
+        border-radius: 50px;
+        padding: 10px 58px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        color: #18154B;
+        border: none;
+    }
+}
+
+@media(max-width:480px){
+    .banner_hero {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .footer_content {
+        padding-top: 40px;
+    }
+
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner_right_container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .banner_right_now {
+        background: linear-gradient(300deg, #0D748B -18.13%, #1A0B73 75.49%);
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 100%;
+        height: 500px;
+    }
+
+    .title_banner {
+        font-size: 24px;
+    }
+
+    .proposal {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 200px;
+    }
+
+    .discount {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 75px;
+    }
+
+    .image_btn_container {
+        display: flex;
+        margin-top: 45px;
+        flex-wrap: nowrap;
+    }
+
+    .banner_right_now {
+        background: linear-gradient(300deg, #0D748B -18.13%, #1A0B73 75.49%);
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .right_discount h1 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 125%;
+        color: #FFFFFF;
+        width: 130px;
+    }
+
+    .left_discount h1 {
+        font-weight: 700;
+        font-size: 43px;
+        line-height: 76px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .title_catalog, .hit {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .name_product {
+        width: 140px;
+        font-size: 16px;
+    }
+
+    .content_card {
+        padding: 20px;
+        display: flex;
+        gap: 45px;
+        align-items: center;
+    }
+
+    .advantages_content {
+        padding: 40px;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .left_advantages img {
+        width: 100%;
+        height: auto;
+    }
+
+    .CARD_ADV_CARD {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        width: 150px;
+    }
+
+
+    .card_ad {
+        width: 125px;
+    }
+
+    .CARD_ADV_CARD {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        width: 130px;
+    }
+
+    .hit_cards_container {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn_card_hit a {
+        padding: 12px 33px;
+        font-size: 12px;
+    }
+
+    .btn_card_hit a {
+        padding: 12px 40px;
+        font-size: 12px;
+    }
+
+    .about_company_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .prg_about {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 145%;
+        color: #303239;
+        width: auto;
+    }
+
+    .right_img_container{
+        width: 100%;
+        display: block;
+    }
+
+    .img_cont{
+        width: 100%;
+    }
+
+    .icon_card {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        width: 60px;
+        height: 60px;
+        border-radius: 90px;
+        background-image: url(../img/Group\ 13.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 35px;
+    }
+
+    .icon_about_cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 34px;
+    }
+
+    .prg_abt_card {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .icon_cont {
+        background: #25307B;
+        box-shadow: 0px 4px 40px rgb(0 6 84 / 90%);
+        width: 50px;
+        height: 50px;
+        border-radius: 90px;
+        background-image: url(../img/Frame.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 28px;
+    }
+
+    form {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 25px;
+        flex-wrap: wrap;
+    }
+
+    .forms_title {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: auto;
+    }
+
+    input{
+        display: block;
+        width: 100%;
+    }
+
+    button{
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .contacts_content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .right_contacts{
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .menu_footer{
+        display: block;
+        margin-top: 40px;
+    }
+
+    .right_menu{
+        margin-top: 40px;
+    }
+
+    .end_footer {
+        margin-top: 40px;
+        text-align: start;
+    }
+
+    .public{
+        text-align: start;
+    }
+
+    .oferts_contet {
+        margin-top: 40px;
+    }
+
+    .logo_footer {
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .cpr {
+        font-size: 15px;
+    }
+
+    .title_menu_footer {
+        font-size: 16px;
+    }
+
+    .menu_foot li a {
+        font-size: 15px;
+    }
+
+    .public, .politic_footer {
+        font-size: 15px;
+    }
+
+    .oferts_contet {
+        text-align: start;
+        margin-top: 40px;
+    }
+
+    .end_footer{
+        text-align: center;
+    }
+
+    .right_contacts iframe {
+        width: 100%;
+        display: block;
+    }
+
+    .btn_footer_phone {
+        position: static;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width:460px){
+    .banner_right_container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .right_banner img {
+        width: 180px;
+        margin-bottom: 10px;
+    }
+    .btn_card_hit a {
+        padding: 12px 35px;
+        font-size: 12px;
+    }
+
+    .image_btn_container img{
+        width: 100%;
+    }
+
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 65px;
+    }
+
+    .btn_card_hit a {
+        padding: 12px 27px;
+        font-size: 12px;
+    }
+
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 185px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .image_product img {
+        text-align: center;
+        width: 100%;
+        margin-top: 15px;
+        height: auto;
+    }
+
+    .btn_card_hit a {
+        padding: 12px 23px;
+        font-size: 12px;
+    }
+
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 180px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .icon svg{
+        display: block;
+        width: 36px;
+    }
+}
+
+@media(max-width:420px){
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 24px;
+    }
+}
+
+
+@media(max-width:415px){
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 176px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .card_ad {
+        width: auto;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .icon_cont {
+        background: #25307B;
+        box-shadow: 0px 4px 40px rgb(0 6 84 / 90%);
+        width: 60px;
+        height: 60px;
+        border-radius: 90px;
+        background-image: url(../img/Frame.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 28px;
+    }
+
+    .CARD_ADV_CARD {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        width: 182px;
+    }
+
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 18px;
+    }
+
+
+    .content_card {
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .btn_card_hit a {
+        padding: 12px;
+        font-size: 12px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+   .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .icon svg{
+        display: block;
+        width: 36px;
+    }
+}
+
+@media(max-width:390px){
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 165px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:375px){
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 157px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .image_btn_container svg{
+        width: 20px;
+    }
+
+    .btn_catalog a {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        width: 75px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+
+   .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .icon svg{
+        display: block;
+        width: 36px;
+    }
+}
+
+@media(max-width:360px){
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 150px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .right_banner img {
+        width: 180px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .btn_card_hit a {
+        padding: 12px;
+        font-size: 11px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon_about_card {
+        width: 138px;
+    }
+
+    .btn_catalog a {
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+        width: 66px;
+    }
+
+    .image_btn_container svg {
+        width: 16px;
+    }
+
+    .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .icon svg{
+        display: block;
+        width: 36px;
+    }
+}
+
+@media(max-width:320px){
+    .right_banner img {
+        width: 180px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .title_banner {
+        font-size: 22px;
+    }
+
+    .discount {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .image_btn_container {
+        display: flex;
+        margin-top: 45px;
+        flex-wrap: wrap;
+    }
+
+    .btn_catalog {
+        margin-top: 25px;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .btn_catalog {
+        margin-top: 25px;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .btn_catalog a {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        width: 75px;
+    }
+
+    .image_btn_container svg {
+        width: 20px;
+    }
+
+    .btn_catalog {
+        margin-top: 25px;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-left: 63%;
+    }
+
+    .discount {
+        display: flex;
+        gap: 0;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .banner_hero, .catolog_container, .hit_product_container, .about_company, .contacts_container, .footer_content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .advantages_container {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .advantages_content {
+        padding: 20px;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 145px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .btn_card_hit a {
+        padding: 12px;
+        font-size: 10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon_about_card {
+        width: 133px;
+    }
+
+    .prg_abt_card {
+        font-size: 14px;
+        width: auto;
+    }
+
+    .politic {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        color: #F3F3F3;
+        margin-top: 20px;
+    }
+
+    .forms_prg {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    .name_product {
+        width: 134px;
+        font-size: 16px;
+    }
+
+    .product_img {
+        width: 120px;
+    }
+
+    .title_catalog, .hit {
+        font-size: 22px;
+    }
+
+    .title_contacts {
+        font-size: 22px;
+    }
+
+    .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
